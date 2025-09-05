@@ -5,7 +5,7 @@ mcp[cli]
 pylatexenc
 pyyaml
 ray[default]
-sglang
-torch
+# sglang
+# torch
 transformers
 wandb
