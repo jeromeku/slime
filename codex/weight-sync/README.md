@@ -1,5 +1,7 @@
 Efficient Weight Sync via CUDA IPC — Implementation Notes
 
+See https://chatgpt.com/share/68bb6fe6-6870-8011-85fe-db83955a57df
+
 Overview
 - This folder documents how slime integrates CUDA IPC to update rollout (inference) weights directly from training processes without host copies.
 - It summarizes the flow in this repo, cites the referenced blog post, and provides runnable minimal demos of the CUDA IPC serializer path used here.
